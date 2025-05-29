@@ -129,3 +129,82 @@ footer {
     background-color: #333;
     color: white;
 }
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: auto;
+    padding: 0 1rem;
+}
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: auto;
+    padding: 0 1rem;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.modal-content {
+    background: white;
+    margin: 10% auto;
+    padding: 1rem;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#cart-items {
+    margin: 1rem 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-group textarea {
+    resize: vertical;
+}
+
+.close-contact {
+    float: right;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
